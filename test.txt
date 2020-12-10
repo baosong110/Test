@@ -1,3 +1,16 @@
-自动化测试学习
-分支测试上传
-上传测试
+git branch  //查询本地分支名
+git branch -a //查询远程本地所有分支名
+git branch -r //查询远程分支名
+git checkout  分支名   //切换分支名
+git checkout -d    //创建本地分支名
+git log            //查看修改历史版本记录
+git reflog         //获取版本号
+git reset --hard  版本号 // 跳转切换不同版本号
+//推送本地创建分支到远程github 上
+1，git checkout -d  分支名
+2，git push  --set-upstream origin  分支名
+
+ //删除本地分支
+1,git checkout -r -d  分支名  2,  git push   origin  :分支名  //删除远程分支名
+
+git merge 分支名； //合并代码到master
