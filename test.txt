@@ -12,5 +12,7 @@ git reset --hard  版本号 // 跳转切换不同版本号
 
  //删除本地分支
 1,git checkout -r -d  分支名  2,  git push   origin  :分支名  //删除远程分支名
-
-git merge 分支名； //合并代码到master
+//合并分支  到master
+1,git checkout master //切换分支到master
+//合并到master
+2,git merge 分支名； //合并代码到master
