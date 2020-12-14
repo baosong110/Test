@@ -7,11 +7,7 @@ public class BsaicAnnotation {
          public void beforeClass(){
              System.out.println("beforeClass这是测试类之前运行");
          }
-         @AfterClass
 
-         public void afterClass(){
-             System.out.println("afterClass这是测试类之后运行的");
-         }
 
         @BeforeMethod
         public void breforeMethod(){
@@ -32,6 +28,21 @@ public class BsaicAnnotation {
        public void afterMethod(){
            System.out.println("aftermethd 这是测试方法之后运行");
        }
+      @AfterClass
+
+         public void afterClass(){
+              System.out.println("afterClass这是测试类之后运行的");
+    }
+     @BeforeSuite
+
+    public void  beforesuite(){
+         System.out.println("beforesuite 这是套件之前运行的");
+     }
+
+     @AfterSuite
+     public  void  aftersuite(){
+         System.out.println("aftersuite 这是套件之后运行的");
+     }
 }
 
 

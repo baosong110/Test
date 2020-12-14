@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!---类分组测试 -->
+<suite name="sute">
+    <test name="groupClass">
+        <classes>
+            <class name="com.course.test.groups.groupClassOne"></class>
+            <class name="com.course.test.groups.groupClassTwo"></class>
+            <class name="com.course.test.groups.groupClassThree"></class>
+        </classes>
+    </test>
+    <test name="week">
+        <groups>
+            <run>
+                <include name="ter"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.course.test.groups.groupClassThree"></class>
+            <class name="com.course.test.groups.groupClassTwo"></class>
+            <class name="com.course.test.groups.groupClassOne"></class>
+        </classes>
+    </test>
+</suite>
