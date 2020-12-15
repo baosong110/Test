@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="theadxml" parallel="tests" thread-count="3">
+   <!--
+    thread-count :代表最大并发线程数
+    -->
+    <test name="testOne">
+        <classes>
+            <class name="com.course.test.TheadTest.TheadTeatXml"></class>
+        </classes>
+    </test>
+    <test name="demo">
+        <classes>
+            <class name="com.course.test.BsaicAnnotation"></class>
+        </classes>
+    </test>
+
+</suite>
