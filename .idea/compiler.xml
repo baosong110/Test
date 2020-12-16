@@ -7,10 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Chaper" />
+        <module name="charpers" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Chaper" target="1.5" />
+      <module name="charper6" target="1.5" />
+      <module name="charpers" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
