@@ -1,0 +1,14 @@
+[
+  {
+    "description": "这是mock列子第一个",
+    "request": {
+      "uri": "/demo"
+    },
+    "response": {
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "text": "这是mock框架demo不会乱码嘛 不会回"
+    }
+  }
+]

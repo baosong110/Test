@@ -1,0 +1,48 @@
+[
+  {
+    "description": "模拟带cookies信息get参数的",
+    "request": {
+      "uri": "/startcookies/cookies",
+      "method": "get",
+      "queries": {
+        "name": "胡汉三",
+        "age": "18"
+      },
+       "cookies":{
+         "login": "true"
+       }
+    },
+    "response": {
+      "headers": {
+        "Content-Type": "html/text;charset=gbk"
+      },
+      "text": "这是模拟cookiesGet请求"
+    }
+  },
+  {
+    "description": "模拟带cookies的post请求参数",
+    "request": {
+      "uri": "/postwithparme",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+
+      "json": {
+        "name": "wo",
+        "age": "18"
+
+      }
+    },
+    "response": {
+
+      "status": 200,
+      "json": {
+        "status": "1",
+        "messages":"success"
+
+      }
+
+    }
+  }
+]

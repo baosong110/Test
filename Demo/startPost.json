@@ -1,0 +1,37 @@
+[
+  {
+    "description": "模拟post的请求网络",
+    "request": {
+      "uri": "/postdemo",
+      "method": "post"
+    },
+
+
+    "response": {
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      },
+      "text": "这是post请求方式网络"
+    }
+  },
+  {
+    "description" : "模拟带参数的post请求",
+    "request": {
+      "uri": "/postwithparm",
+      "method": "post",
+      "forms": {
+        "name": "胡汉三",
+        "age": "18",
+        "sex": "男"
+      }
+    },
+      "response": {
+        "headers": {
+          "Content-Type": "text/html;charset=gbk"
+        },
+        "text": "这是带参数的post请求响应"
+      }
+}
+
+
+]
